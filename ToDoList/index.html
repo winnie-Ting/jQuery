@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDoList-一个简单的schedule</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <!-- 头部 -->
+  <header>
+    <section>
+      <label for="title">ToDoList</label>
+      <input type="text" id="title" name="title" placeholder="添加ToDo" required="required" autocomplete="off" />
+    </section>
+  </header>
+  <!-- 主体部分 -->
+  <section>
+    <h3>待完成<span id="todoCount"></span></h3>
+    <ol id="todoList" class="demo-box">
+
+    </ol>
+    <h3>已完成<span id="doneCount"></span></h3>
+    <ul id="doneList">
+
+    </ul>
+  </section>
+  <!-- 底部 -->
+  <footer>
+    copyright &copy; 2020 todoList.cn
+  </footer>
+
+
+
+
+  <script src="./js/jquery-1.12.4.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
